@@ -53,9 +53,11 @@
         <div class="item active">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Northwestern University</h1>
+              <p>
+              EECS 349: Machine Learning<br/>
+              Professor Doug Downey</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Link to Detailed Report</a></p>
             </div>
           </div>
         </div>
