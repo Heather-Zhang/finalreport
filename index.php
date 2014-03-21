@@ -100,8 +100,30 @@
       <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
-
-      <div class="row featurette">
+       <h2 class="featurette-heading">Motivation</h2>
+        <p class="lead"><nbsp><nbsp><nbsp>Professional sports, along with sports betting and lottery have been affecting people’s life spiritually and financially for decades. Major, professional sports leagues such as the NBA, NFL, and MLB contain a significant amount of easily accessible data whose outcomes tend to be randomly distributed and offer attractive data for analytical purposes. Predicting the outcomes of sporting events represents a natural application for machine learning. Above all, machine learning can make hidden data trends come to surface, which will help coaches and management levels make better decisions and strategies. Moreover, precise game outcome prediction is also critical to sports bettors for obvious reasons. In a nutshell, people’s personal opinions, professional or not, may differ from what the data says and what the truth is. As a consequence, using machine learning on statistics has a big chance to beat the NBA odds for a competitive or financial advantage.
+        </p>
+        <p class="lead">  In this project, we analyzed the NBA game statistics and made predictions on game outcomes for the 2013-2014 season.
+        </p>
+        
+        <h2 class="featurette-heading">Solution</h2>
+        
+<div class="row featurette">
+        <div class="col-md-5">
+           <img src="img/graph.png" width="400px" height="400px"  alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <p class="lead">  A chisquare test was used to analyze a set of 140 attributes of team statistics to determine 
+the subset of features to be used in the prediction models. Using a chisquare value of 0.05 as a cutoff, 20 features were then selected by this method.</p>
+          <p class="lead">  We used Naive Bayes classifier and decision tree learning algorithms on our data set.We tried all possible classifiers on our data set and these two tended to perform well and also scaled well.Naive Bayes outperforms all classifiers clearly for our task.We used cross-validation with 10-folds for our validation strategy to validate our classifier.Then we used future data i.e data for this weeks matches as our test set and tested our model on it.The average accuracy observed for Naive Bayes was “68.25%”.Followed by Decision Tree with an average accuracy of “64.71%”.</p>
+        </div>
+      </div>
+      <h2 class="featurette-heading">Conclusion</h2>
+       <p class="lead"> Our accuracies prove that selecting attributes using learning algorithms perform well compared to expert knowledge.Even though there is a similarity in attributes chosen by algorithm and expert knowledge.
+</p>
+      <p class="lead">  Also from  the selected attributes and increasing in accuracy we noted two important features.Home team statistics play an important role in deciding who wins or not.As most of the attributes chosen are related to Home team’s performance.Data consists of 140 attributes taken from three different statistics “Home performance”,”Opponent performance” and “General Performance” statistics of a team. From our analysis we noticed that most of features selected are from “General Performance” statistic like “Defense rating”,”offense rating” etc.These inferences tends to seem right as these attributes tend to be more meaningful in determining the result.
+</p>
+    <!--   <div class="row featurette">
         <div class="col-md-7">
           <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -135,7 +157,7 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider"> -->
 
       <!-- /END THE FEATURETTES -->
 
