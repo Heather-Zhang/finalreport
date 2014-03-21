@@ -57,7 +57,7 @@
               <p>
               EECS 349: Machine Learning<br/>
               Professor Doug Downey</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Link to Detailed Report</a></p>
+              <p><a class="btn btn-lg btn-primary" href="finalreport.pdf" role="button">Link to Detailed Report</a></p>
             </div>
           </div>
         </div>
