@@ -31,7 +31,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">NBA Teams Performance</a>
+              <a class="navbar-brand" href="#">NBA Game Outcome Predictor</a>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
               <p>
               EECS 349: Machine Learning<br/>
               Professor Doug Downey</p>
-              <p><a class="btn btn-lg btn-primary" href="finalreport.pdf" role="button">Link to Detailed Report</a></p>
+              <p><a class="btn btn-lg btn-primary" href="final_report.pdf" role="button">Link to Detailed Report</a></p>
             </div>
           </div>
         </div>
